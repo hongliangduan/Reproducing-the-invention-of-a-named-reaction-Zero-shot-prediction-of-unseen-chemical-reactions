@@ -1,9 +1,19 @@
 # Reproducing the invention of a named reaction: Zero-shot prediction of unseen chemical reactions
 This is the code for "Reproducing the invention of a named reaction: Zero-shot prediction of unseen chemical reactions" paper.  The preprint of this paper can be found in ChemRxiv with https://doi.org/10.26434/chemrxiv.14034890.v1
 
+# Requirments
 ## Python 2.7
 ## Tensorflow 1.11
 ## RDkit 2019.03.4
+
+# Conda Environemt Setup
+```
+conda create -n transformer python=2.7
+conda activate transformer
+conda install -c rdkit rdkit=2019.03.4 -y
+conda install -c tensorflow tensorflow=1.11.0 -y
+git clone https://github.com/hongliangduan/Reproducing-the-invention-of-a-named-reaction-Zero-shot-prediction-of-unseen-chemical-reactions
+```
 
 # Dataset
 The data for training, dev and testing of Zero-shot reaction prediction are provided in "Zero-shot reaction prediction data" file. 
