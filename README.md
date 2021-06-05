@@ -18,8 +18,8 @@ git clone https://github.com/hongliangduan/Reproducing-the-invention-of-a-named-
 # Dataset
 The data for training, dev and testing of Zero-shot reaction prediction are provided in "Zero-shot reaction prediction data" file. 
 The data for training, dev and testing of One-shot reaction prediction are provided in "One-shot reaction prediction data" file.
-# Generate data
-The input data can preprocessed by running the datagen.sh script, and the output data was in t2t_data folder.
+# Step 1: Preprocess the data
+The input data can preprocessed by running the ``` sh datagen.sh ``` script, and the output data was in t2t_data folder.
 
 # Train
 Model training can be started by running the train.sh script.
